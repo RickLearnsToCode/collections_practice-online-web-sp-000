@@ -30,6 +30,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
+  new_index_order =[]
   new_index_order = (array.length-1..0).to_a
   binding.pry
   new_output = []
