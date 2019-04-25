@@ -31,7 +31,7 @@ end
 
 def reverse_array(array)
   new_index_order = (array.length-1..0).to_a
-  #binding.pry
+  binding.pry
   new_output = []
   new_index_order.each do |i|
       new_output << array[i]
@@ -39,4 +39,4 @@ def reverse_array(array)
 return new_output
   end
 
-#reverse_array([12,4,35])
+reverse_array([12,4,35])
