@@ -1,4 +1,4 @@
-require pry.rb 
+require pry.rb
 
 
 def sort_array_asc(array)
