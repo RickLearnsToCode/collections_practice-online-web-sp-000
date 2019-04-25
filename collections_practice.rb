@@ -38,3 +38,5 @@ def reverse_array(array)
     end
 return new_output
   end
+
+reverse_array([12,4,35])  
