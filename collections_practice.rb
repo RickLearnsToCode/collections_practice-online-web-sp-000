@@ -40,3 +40,13 @@ return new_output
   end
 
 #reverse_array([12,4,35])
+
+def kesha_maker(array)
+  array.collect do |i|
+    array[i][2] = $
+  end
+  array
+end
+
+
+
