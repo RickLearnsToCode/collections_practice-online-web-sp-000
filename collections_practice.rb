@@ -44,6 +44,7 @@ return new_output
 def kesha_maker(array)
   array.each do |i|
     current_element = array[i].split
+    binding.pry 
     current_element[2] = "\$"
     array[i] = current_element.join
   end
