@@ -19,3 +19,10 @@ def sort_array_char_count(array)
   end
 end
     
+def swap_elements(array)
+  orig_1 = array[1]
+  orig_2 = array[2]
+  array[1] = orig_2
+  array[2] = orig_1
+  array
+end
