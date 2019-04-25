@@ -1,3 +1,5 @@
+require pry.rb 
+
 
 def sort_array_asc(array)
   array.sort do |a,b|
@@ -29,6 +31,7 @@ end
 
 def reverse_array(array)
   new_index_order = (array.length-1..0)
+  binding.pry
   new_output = []
   new_index_order.each do |i|
       new_output << array[i]
