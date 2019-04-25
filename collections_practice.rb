@@ -42,7 +42,7 @@ return new_output
 #reverse_array([12,4,35])
 
 def kesha_maker(array)
-  array.collect do |i|
+  array.each do |i|
     current_element = array[i].split
     current_element[2] = "\$"
     array[i] = current_element.join
