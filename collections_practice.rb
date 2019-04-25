@@ -30,7 +30,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  new_index_order = (0..array.length-1).sort {|a,b| b<=>a)}.to_a
+  new_index_order = (0..array.length-1).sort {|a,b| b<=>a}.to_a
   binding.pry
   new_output = []
   new_index_order.each do |i|
