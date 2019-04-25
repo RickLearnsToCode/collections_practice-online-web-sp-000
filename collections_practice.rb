@@ -28,7 +28,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  new_index_order = range(array.length-1..0)
+  new_index_order = (array.length-1..0)
   new_output = []
   new_index_order.each do |i|
       new_output << array[i]
