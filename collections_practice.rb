@@ -29,10 +29,9 @@ end
 
 def reverse_array(array)
   new_index_order = (array.length-1..0)
-  puts new_index_order
   new_output = []
   new_index_order.each do |i|
       new_output << array[i]
     end
-new_output
+return new_output
   end
