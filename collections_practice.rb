@@ -18,7 +18,7 @@ def sort_array_char_count(array)
     a.length <=> b.length
   end
 end
-    
+
 def swap_elements(array)
   orig_1 = array[1]
   orig_2 = array[2]
