@@ -43,7 +43,7 @@ return new_output
 
 def kesha_maker(array)
   array.collect do |i|
-    array[i][2] = "$"
+    array[i][2] = "\$"
   end
   array
 end
